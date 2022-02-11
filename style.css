@@ -1,0 +1,118 @@
+body{
+  background-color: lightgrey;
+}
+
+.villes{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color:  white;
+}
+
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.avatar-large {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.top{
+	display: flex;
+	align-items: start;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  margin: 100;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+}
+
+
+.esdes{
+  height: 50px;
+  width: 50px;
+  border-radius: 90%;
+}
+
+.formulaire{
+  background-color: steelblue;
+  color:  white;
+  margin-top: 50px;
+}
+
+.col-12{
+  display:  flex;
+  justify-content:  center;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.place{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: black;
+  background-color: lightgrey;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.60;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.card{
+  box-shadow: 5px 5px 5px steelblue;
+}
